@@ -5,4 +5,3 @@ PACKAGE_XY=$(node -e "console.log(JSON.parse(fs.readFileSync('package.json')).ve
 PACKAGE_VERSION="${PACKAGE_XY}.${TRAVIS_BUILD_NUMBER}"
 
 npm version "${PACKAGE_VERSION}"
-git push --tags
