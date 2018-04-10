@@ -1,5 +1,6 @@
 language: node_js
 before_deploy: 
+  - npm run compile
   - ./scripts/release.sh
 deploy:
   provider: npm
