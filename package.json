@@ -1,0 +1,19 @@
+{
+  "name": "matcolors",
+  "version": "0.0.1",
+  "description": "Material design colors",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "url": "https://github.com/vincecoppola/matcolors.git",
+    "type": "git"
+  },
+  "scripts": {
+    "compile": "rm -rf dist && tsc"
+  },
+  "author": "Vince Coppola",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^2.3.4"
+  }
+}
