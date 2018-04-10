@@ -9,11 +9,12 @@
     "type": "git"
   },
   "scripts": {
-    "compile": "rm -rf dist && tsc"
+    "compile": "rm -rf dist && tsc",
+    "test": "echo 'No tests!'"
   },
   "author": "Vince Coppola",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^2.3.4"
+    "typescript": "2.8.1"
   }
 }
